@@ -1,8 +1,17 @@
 {
-  "editor.base-store-component.title": "IO Base App",
-  "editor.base-store-component.description": "A demo component for IO apps",
-  "editor.base-store-component.title.title": "Title",
-  "editor.base-store-component.title.description": "Specify a custom title",
-  "base.title": "Hello, World!!",
-  "base.change-value": "Change your value: {value}"
+  "store/product-identifier.productReference": "Reference",
+  "store/product-identifier.productId": "ID",
+  "store/product-identifier.skuEan": "EAN",
+  "store/product-identifier.skuReferenceId": "Reference",
+  "admin/editor.product-identifier.title": "Product Identifier",
+  "admin/editor.product-identifier.type.title": "Identifier Field",
+  "admin/editor.product-identifier.type.productReference": "Product Reference",
+  "admin/editor.product-identifier.type.productId": "Product ID",
+  "admin/editor.product-identifier.type.skuEan": "SKU EAN",
+  "admin/editor.product-identifier.type.skuReferenceId": "SKU Reference ID",
+  "admin/editor.product-identifier.label.title": "Label",
+  "admin/editor.product-identifier.label.default": "Default",
+  "admin/editor.product-identifier.label.custom": "Custom",
+  "admin/editor.product-identifier.label.hide": "Hide",
+  "admin/editor.product-identifier.customLabel.title": "Custom Label"
 }

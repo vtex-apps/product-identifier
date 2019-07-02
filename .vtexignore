@@ -5,3 +5,5 @@ react/**/*.test.js
 react/**/*.test.ts
 react/**/*.test.tsx
 coverage/
+print.png
+print2.png

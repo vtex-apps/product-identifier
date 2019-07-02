@@ -1,5 +1,121 @@
 {
-  "base-store-component": {
-    "component": "Example"
+  "product-identifier": {
+    "component": "*"
+  },
+  "product-identifier.product": {
+    "component": "ProductIdentifierProduct",
+    "preview": {
+      "type": "grid",
+      "height": 20
+    },
+    "content": {
+      "dependencies": {
+        "label": {
+          "oneOf": [
+            {
+              "properties": {
+                "label": {
+                  "enum": ["default", "hide"]
+                }
+              }
+            },
+            {
+              "properties": {
+                "label": {
+                  "enum": ["custom"]
+                },
+                "customLabel": {
+                  "title": "admin/editor.product-identifier.customLabel.title",
+                  "$ref": "app:vtex.native-types#/definitions/text"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "properties": {
+        "idField": {
+          "title": "admin/editor.product-identifier.type.title",
+          "type": "string",
+          "enum": ["productReference", "productId", "skuEan", "skuReferenceId"],
+          "enumNames": [
+            "admin/editor.product-identifier.type.productReference",
+            "admin/editor.product-identifier.type.productId",
+            "admin/editor.product-identifier.type.skuEan",
+            "admin/editor.product-identifier.type.skuReferenceId"
+          ],
+          "default": "productReference"
+        },
+        "label": {
+          "title": "admin/editor.product-identifier.label.title",
+          "type": "string",
+          "enum": ["default", "custom", "hide"],
+          "enumNames": [
+            "admin/editor.product-identifier.label.default",
+            "admin/editor.product-identifier.label.custom",
+            "admin/editor.product-identifier.label.hide"
+          ],
+          "default": "default"
+        }
+      }
+    }
+  },
+  "product-identifier.summary": {
+    "component": "ProductIdentifierSummary",
+    "preview": {
+      "type": "grid",
+      "height": 20
+    },
+    "content": {
+      "dependencies": {
+        "label": {
+          "oneOf": [
+            {
+              "properties": {
+                "label": {
+                  "enum": ["default", "hide"]
+                }
+              }
+            },
+            {
+              "properties": {
+                "label": {
+                  "enum": ["custom"]
+                },
+                "customLabel": {
+                  "title": "admin/editor.product-identifier.customLabel.title",
+                  "$ref": "app:vtex.native-types#/definitions/text"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "properties": {
+        "idField": {
+          "title": "admin/editor.product-identifier.type.title",
+          "type": "string",
+          "enum": ["productReference", "productId", "skuEan", "skuReferenceId"],
+          "enumNames": [
+            "admin/editor.product-identifier.type.productReference",
+            "admin/editor.product-identifier.type.productId",
+            "admin/editor.product-identifier.type.skuEan",
+            "admin/editor.product-identifier.type.skuReferenceId"
+          ],
+          "default": "productReference"
+        },
+        "label": {
+          "title": "admin/editor.product-identifier.label.title",
+          "type": "string",
+          "enum": ["default", "custom", "hide"],
+          "enumNames": [
+            "admin/editor.product-identifier.label.default",
+            "admin/editor.product-identifier.label.custom",
+            "admin/editor.product-identifier.label.hide"
+          ],
+          "default": "default"
+        }
+      }
+    }
   }
 }

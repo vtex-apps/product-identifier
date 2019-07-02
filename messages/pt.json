@@ -1,8 +1,17 @@
 {
-  "editor.base-store-component.title": "IO Base App",
-  "editor.base-store-component.description": "Um componente de demonstração para apps do VTEX IO",
-  "editor.base-store-component.title.title": "Título",
-  "editor.base-store-component.title.description": "Especifique um título personalizado",
-  "base.title": "Olá, Mundo!!",
-  "base.change-value": "Troque seu valor: {value}"
+  "store/product-identifier.productReference": "Referência",
+  "store/product-identifier.productId": "ID",
+  "store/product-identifier.skuEan": "EAN",
+  "store/product-identifier.skuReferenceId": "Referência",
+  "admin/editor.product-identifier.title": "Identificador do Produto",
+  "admin/editor.product-identifier.type.title": "Campo identificador",
+  "admin/editor.product-identifier.type.productReference": "Código de referência do produto",
+  "admin/editor.product-identifier.type.productId": "Id do produto",
+  "admin/editor.product-identifier.type.skuEan": "EAN do SKU",
+  "admin/editor.product-identifier.type.skuReferenceId": "Código de referência do SKU",
+  "admin/editor.product-identifier.label.title": "Texto identificador",
+  "admin/editor.product-identifier.label.default": "Padrão",
+  "admin/editor.product-identifier.label.custom": "Customizado",
+  "admin/editor.product-identifier.label.hide": "Esconder",
+  "admin/editor.product-identifier.label.customLabel.title": "Texto customizado"
 }

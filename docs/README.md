@@ -34,9 +34,9 @@ Below, we describe the namespaces are available in the app.
 | Token name                      | Description                                 | Component Source                      |
 | ------------------------------- | ------------------------------------------- | ------------------------------------- |
 | `product-identifier`            | The root element                            | [index](/react/ProductIdentifier.tsx) |
-| `product-identifier__label`     | Label of the product identifier             | [index](/react/ProductIdentifier.tsx) |
-| `product-identifier__separator` | Corresponds to the element that renders `:` | [index](/react/ProductIdentifier.tsx) |
-| `product-identifier__value`     | Value of the product identifier             | [index](/react/ProductIdentifier.tsx) |
+| `product-identifierLabel`       | Label of the product identifier             | [index](/react/ProductIdentifier.tsx) |
+| `product-identifierSeparator`   | Corresponds to the element that renders `:` | [index](/react/ProductIdentifier.tsx) |
+| `product-identifierValue`       | Value of the product identifier             | [index](/react/ProductIdentifier.tsx) |
 
 ## Contributing
 

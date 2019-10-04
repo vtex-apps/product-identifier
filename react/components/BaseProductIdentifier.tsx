@@ -1,12 +1,13 @@
 import React from 'react'
 import { IOMessage } from 'vtex.native-types'
-import styles from '../styles.css'
+import { useCssHandles } from 'vtex.css-handles'
 import {
   defineMessages,
   FormattedMessage,
   injectIntl,
   InjectedIntlProps,
 } from 'react-intl'
+
 
 const messages = defineMessages({
   productReference: {
@@ -27,15 +28,22 @@ const messages = defineMessages({
   },
 })
 
+const CSS_HANDLES = [
+  'product-identifier',
+  'product-identifierLabel',
+  'product-identifierSeparator',
+  'product-identifierValue'
+]
+
 const ProductIdentifier: StorefrontFunctionComponent<
   ProductIdentifierProps & InjectedIntlProps
 > = ({ idField, value, customLabel, label, intl }) => {
   return (
     <span
-      className={`${styles['product-identifier']} ${styles['product-identifier']}--${idField} c-muted-1`}
+      className={`${handles.product - identifier} ${handles.product - identifier}--${idField} c-muted-1`}
     >
       {label !== 'hide' && (
-        <span className={styles['product-identifier__label']}>
+        <span className={handles.product - identifierLabel}>
           {label === 'custom' && <IOMessage id={customLabel} intl={intl} />}
           {label === 'default' && (
             <FormattedMessage id={messages[idField].id} />
@@ -43,9 +51,9 @@ const ProductIdentifier: StorefrontFunctionComponent<
         </span>
       )}
       {label !== 'hide' && (
-        <span className={styles['product-identifier__separator']}>: </span>
+        <span className={handles.product - identifierSeparator}>: </span>
       )}
-      <span className={styles['product-identifier__value']}>{value}</span>
+      <span className={handles.product - identifierValue}>{value}</span>
     </span>
   )
 }

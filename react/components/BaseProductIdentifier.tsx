@@ -29,21 +29,22 @@ const messages = defineMessages({
 })
 
 const CSS_HANDLES = [
-  'product-identifier',
-  'product-identifierLabel',
-  'product-identifierSeparator',
-  'product-identifierValue'
+  'productIdentifier',
+  'productIdentifierLabel',
+  'productIdentifierSeparator',
+  'productIdentifierValue'
 ]
 
 const ProductIdentifier: StorefrontFunctionComponent<
   ProductIdentifierProps & InjectedIntlProps
 > = ({ idField, value, customLabel, label, intl }) => {
+  const handles = useCssHandles(CSS_HANDLES)
   return (
     <span
-      className={`${handles.product - identifier} ${handles.product - identifier}--${idField} c-muted-1`}
+      className={`${handles.productIdentifier} ${handles.productIdentifier}--${idField} c-muted-1`}
     >
       {label !== 'hide' && (
-        <span className={handles.product - identifierLabel}>
+        <span className={`${handles.productIdentifierLabel}`}>
           {label === 'custom' && <IOMessage id={customLabel} intl={intl} />}
           {label === 'default' && (
             <FormattedMessage id={messages[idField].id} />
@@ -51,9 +52,9 @@ const ProductIdentifier: StorefrontFunctionComponent<
         </span>
       )}
       {label !== 'hide' && (
-        <span className={handles.product - identifierSeparator}>: </span>
+        <span className={`${handles.productIdentifierSeparator}`}>: </span>
       )}
-      <span className={handles.product - identifierValue}>{value}</span>
+      <span className={`${handles.productIdentifierValue}`}>{value}</span>
     </span>
   )
 }

@@ -5,7 +5,7 @@
 
 > Shows a product identifier, such as: product reference, product ID, sku EAN or sku reference.
 
-![](./print.png)
+![reference](https://user-images.githubusercontent.com/284515/90145591-764e7280-dd56-11ea-98d8-fd4c41536e60.png)
 
 ## Usage
 
@@ -26,7 +26,7 @@ Possible identifiers:
 
 You can hide the label or customize its text, example:
 
-<img src="./print2.png" width="200" />
+![Customizing text](https://user-images.githubusercontent.com/60782333/90145130-004a0b80-dd56-11ea-9cbd-5ee621da4d69.png)
 
 ## CSS handles
 

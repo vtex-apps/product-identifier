@@ -1,53 +1,49 @@
+📢 Use this project, [contribute](https://github.com/vtex-apps/product-identifier) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
+
 # Product Identifier
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> Shows a product identifier, such as: product reference, product ID, sku EAN or sku reference.
+Product Identifier app is responsible for showing a product identifier, such as: product reference, product ID, sku EAN or sku reference.
 
-![](./print.png)
+![reference](https://raw.githubusercontent.com/vtex-apps/product-identifier/master/print.png)
 
-## Usage
+## Configuration
 
-Add `"vtex.product-identifier": "0.x"` to your `manifest.json` `dependencies`.
+Add the `vtex.product-identifier` app to your theme's dependencies in the `manifest.json` file, as in:
 
-Interfaces available: `product-identifier`.
+```
+"dependencies": {
+    "vtex.product-identifier": "0.x"
+}
+```
 
-## Content
-
-This component can be configured using the CMS to show other identifiers.
-
-Possible identifiers:
+Now, the `product-identifier` interface is available. Within the admin's CMS, you can configure this component to show other identifiers, such as:
 
 - Product Reference
 - Product ID
 - SKU EAN
 - SKU Reference ID
 
-You can hide the label or customize its text, example:
+It's also possible to hide the component label or customize its text. Notice that, in the following example, the "Reference" text was substituted by "Foo".
 
-<img src="./print2.png" width="200" />
+![foo](https://user-images.githubusercontent.com/60782333/90145130-004a0b80-dd56-11ea-9cbd-5ee621da4d69.png)
 
-## CSS handles
+## Customization
 
-Below, we describe the namespaces are available in the app.
+To apply CSS customization in this and other blocks, follow the instructions given in the recipe on [Using  CSS  Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).
 
-### `product-identifier`
-
-| Token name                      | Description                                 | Component Source                      |
-| ------------------------------- | ------------------------------------------- | ------------------------------------- |
-| `product-identifier`            | The root element                            | [index](/react/ProductIdentifier.tsx) |
-| `product-identifier__label`     | Label of the product identifier             | [index](/react/ProductIdentifier.tsx) |
-| `product-identifier__separator` | Corresponds to the element that renders `:` | [index](/react/ProductIdentifier.tsx) |
-| `product-identifier__value`     | Value of the product identifier             | [index](/react/ProductIdentifier.tsx) |
-
-## Contributing
-
-Check [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) to this project.
+| CSS Handles |
+| ----------- |
+| `product-identifier`           | 
+| `product-identifier__label`    | 
+| `product-identifier__separator`| 
+| `product-identifier__value`    | 
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

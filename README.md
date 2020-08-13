@@ -2,7 +2,7 @@
 
 > Shows a product identifier, such as: product reference, product ID, sku EAN or sku reference.
 
-![](./print.png)
+![reference](https://raw.githubusercontent.com/vtex-apps/product-identifier/master/print.png)
 
 ## Usage
 
@@ -21,9 +21,9 @@ Possible identifiers:
 - SKU EAN
 - SKU Reference ID
 
-You can hide the label or customize its text, example:
+You can hide the label or customize its text. For example:
 
-<img src="./print2.png" width="200" />
+![foo](https://user-images.githubusercontent.com/60782333/90145130-004a0b80-dd56-11ea-9cbd-5ee621da4d69.png)
 
 ## CSS handles
 

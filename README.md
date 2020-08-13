@@ -7,7 +7,7 @@
 
 Product Identifier app is responsible for showing a product identifier, such as: product reference, product ID, sku EAN or sku reference.
 
-![reference](https://raw.githubusercontent.com/vtex-apps/product-identifier/master/print.png)
+![reference](https://user-images.githubusercontent.com/60782333/90151384-0abbd380-dd5d-11ea-9022-69ba4685e1d0.png)
 
 ## Configuration
 

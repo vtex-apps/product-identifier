@@ -37,12 +37,13 @@
         "idField": {
           "title": "admin/editor.product-identifier.type.title",
           "type": "string",
-          "enum": ["productReference", "productId", "skuEan", "skuReferenceId"],
+          "enum": ["productReference", "productId", "skuEan", "skuReferenceId", "itemId"],
           "enumNames": [
             "admin/editor.product-identifier.type.productReference",
             "admin/editor.product-identifier.type.productId",
             "admin/editor.product-identifier.type.skuEan",
-            "admin/editor.product-identifier.type.skuReferenceId"
+            "admin/editor.product-identifier.type.skuReferenceId",
+            "admin/editor.product-identifier.type.itemId"
           ],
           "default": "productReference"
         },
@@ -95,12 +96,13 @@
         "idField": {
           "title": "admin/editor.product-identifier.type.title",
           "type": "string",
-          "enum": ["productReference", "productId", "skuEan", "skuReferenceId"],
+          "enum": ["productReference", "productId", "skuEan", "skuReferenceId", "itemId"],
           "enumNames": [
             "admin/editor.product-identifier.type.productReference",
             "admin/editor.product-identifier.type.productId",
             "admin/editor.product-identifier.type.skuEan",
-            "admin/editor.product-identifier.type.skuReferenceId"
+            "admin/editor.product-identifier.type.skuReferenceId",
+            "admin/editor.product-identifier.type.itemId"
           ],
           "default": "productReference"
         },

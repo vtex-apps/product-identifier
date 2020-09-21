@@ -8,6 +8,7 @@ declare module 'vtex.product-context/useProduct' {
       productReference: string
     }
     selectedItem: {
+      itemId: string
       ean: string
       referenceId: ReferenceId[]
     }

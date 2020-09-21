@@ -25,6 +25,10 @@ const messages = defineMessages({
     id: 'store/product-identifier.skuReferenceId',
     defaultMessage: '',
   },
+  itemId: {
+    id: 'store/product-identifier.itemId',
+    defaultMessage: '',
+  },
 })
 
 const ProductIdentifier: StorefrontFunctionComponent<
@@ -55,6 +59,7 @@ export type IdField =
   | 'productId'
   | 'skuEan'
   | 'skuReferenceId'
+  | 'itemId'
 
 interface ProductIdentifierProps {
   idField: IdField

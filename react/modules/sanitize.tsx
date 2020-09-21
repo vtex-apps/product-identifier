@@ -5,6 +5,7 @@ const allowedIdFields = [
   'productReference',
   'skuEan',
   'skuReferenceId',
+  'itemId',
 ]
 
 export const sanitizeId = (idField: string): IdField => {

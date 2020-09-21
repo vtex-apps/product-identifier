@@ -25,6 +25,7 @@ Now, the `product-identifier` interface is available. Within the admin's CMS, yo
 - Product ID
 - SKU EAN
 - SKU Reference ID
+- Item ID
 
 It's also possible to hide the component label or customize its text. Notice that, in the following example, the "Reference" text was substituted by "Foo".
 

@@ -9,6 +9,9 @@ const allowedIdFields: Record<
   IdField,
   (contex: ProductContext) => string | null | undefined
 > = {
+  itemId: context => {
+    return path(['selectedItem', 'itemId'], context)
+  },
   productId: context => {
     return path(['product', 'productId'], context)
   },

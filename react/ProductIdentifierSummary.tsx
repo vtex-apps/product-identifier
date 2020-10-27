@@ -58,7 +58,7 @@ const ProductIdentifierSummary: StorefrontFunctionComponent<
   ProductIdentifierProductProps
 > = ({ idField, customLabel, label }) => {
   const context = useProductSummary()
-  
+
   const sanitizedId = sanitizeId(idField) as IdField
 
   if (

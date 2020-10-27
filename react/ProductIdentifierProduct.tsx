@@ -29,7 +29,7 @@ const allowedIdFields: Record<
     if (!refIds) {
       return null
     }
-        
+
     const refId = refIds.find(({ Key }) => Key === 'RefId')
 
     if (!refId) {

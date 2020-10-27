@@ -10,7 +10,7 @@ declare module 'vtex.product-summary-context/ProductSummaryContext' {
 
   interface Item {
     itemId: string
-    referenceId: Reference[]
+    referenceId: Reference
   }
 
   interface Reference {

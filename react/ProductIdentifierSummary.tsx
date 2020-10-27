@@ -27,7 +27,7 @@ const allowedIdFields: Record<
   },
   skuReferenceId: context => {
     // TODO: Add `selectedSku` to ProductSummaryContext instead of using `sku`
-    const refIds =
+    const refId =
       context &&
       context.product &&
       context.product.sku &&
@@ -35,17 +35,17 @@ const allowedIdFields: Record<
         ? context.product.sku.referenceId
         : null
 
-    if (!refIds) {
-      return null
-    }
-
-    const refId = refIds.find(({ Value }) => Value)
-
     if (!refId) {
       return null
     }
 
-    return refId.Value
+    const { Value } = refId
+
+    if (!Value) {
+      return null
+    }
+
+    return Value
   },
 }
 
@@ -56,9 +56,9 @@ const sanitizeId = (idField: string): IdField => {
 
 const ProductIdentifierSummary: StorefrontFunctionComponent<
   ProductIdentifierProductProps
-> = ({ idField, customLabel, label }) => {
-  const context = useProductSummary()
-
+> = ({ idField, customLabel}) => {
+  const context = useProductSummary() 
+  
   const sanitizedId = sanitizeId(idField) as IdField
 
   if (
@@ -72,14 +72,14 @@ const ProductIdentifierSummary: StorefrontFunctionComponent<
     return null
   }
 
-  const value = allowedIdFields[sanitizedId](context)
+  const value = allowedIdFields[sanitizedId](context)  
 
   return (
     <BaseProductIdentifier
       idField={idField}
       value={value}
       customLabel={customLabel}
-      label={label}
+      label='custom'
     />
   )
 }

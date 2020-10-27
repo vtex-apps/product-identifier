@@ -27,7 +27,7 @@ const allowedIdFields: Record<
   },
   skuReferenceId: context => {
     // TODO: Add `selectedSku` to ProductSummaryContext instead of using `sku`
-    const refIds =
+    const refId =
       context &&
       context.product &&
       context.product.sku &&
@@ -35,17 +35,17 @@ const allowedIdFields: Record<
         ? context.product.sku.referenceId
         : null
 
-    if (!refIds) {
-      return null
-    }
-
-    const refId = refIds.find(({ Value }) => Value)
-
     if (!refId) {
       return null
     }
 
-    return refId.Value
+    const { Value } = refId
+
+    if (!Value) {
+      return null
+    }
+
+    return Value
   },
 }
 

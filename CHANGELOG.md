@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- `refId` in `skuReferenceId` used as object instead of array
+
 ## [0.2.0] - 2020-09-21
 ### Fixed
 - Messages path typo

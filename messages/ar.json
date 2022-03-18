@@ -12,7 +12,7 @@
   "admin/editor.product-identifier.type.skuEan": "SKU EAN",
   "admin/editor.product-identifier.type.skuReferenceId": "معرف مرجع SKU",
   "admin/editor.product-identifier.label.title": "التسمية",
-  "admin/editor.product-identifier.label.default": "افتراضي",
+  "admin/editor.product-identifier.label.default": "العنوان الرئيسي",
   "admin/editor.product-identifier.label.custom": "مخصص",
   "admin/editor.product-identifier.label.hide": "إخفاء",
   "admin/editor.product-identifier.customLabel.title": "تسمية مخصصة"

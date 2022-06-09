@@ -1,0 +1,19 @@
+{
+  "store/product-identifier.productReference": "Référence",
+  "store/product-identifier.productId": "ID",
+  "store/product-identifier.skuEan": "EAN",
+  "store/product-identifier.skuReferenceId": "Référence",
+  "store/product-identifier.itemId": "ID de l’article",
+  "admin/editor.product-identifier.title": "Identifiant du produit",
+  "admin/editor.product-identifier.type.title": "Champ Identificateur",
+  "admin/editor.product-identifier.type.itemId": "ID de l’article",
+  "admin/editor.product-identifier.type.productReference": "Référence du produit",
+  "admin/editor.product-identifier.type.productId": "ID du produit",
+  "admin/editor.product-identifier.type.skuEan": "EAN de SKU",
+  "admin/editor.product-identifier.type.skuReferenceId": "ID de référence de SKU",
+  "admin/editor.product-identifier.label.title": "Étiquette",
+  "admin/editor.product-identifier.label.default": "Par défaut",
+  "admin/editor.product-identifier.label.custom": "Personnaliser",
+  "admin/editor.product-identifier.label.hide": "Masquer",
+  "admin/editor.product-identifier.customLabel.title": "Étiquette personnalisée"
+}

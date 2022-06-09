@@ -1,0 +1,19 @@
+{
+  "store/product-identifier.productReference": "ข้อมูลอ้างอิง",
+  "store/product-identifier.productId": "รหัส",
+  "store/product-identifier.skuEan": "EAN",
+  "store/product-identifier.skuReferenceId": "ข้อมูลอ้างอิง",
+  "store/product-identifier.itemId": "รหัสสินค้า",
+  "admin/editor.product-identifier.title": "รหัสผลิตภัณฑ์",
+  "admin/editor.product-identifier.type.title": "ฟิลด์รหัส",
+  "admin/editor.product-identifier.type.itemId": "รหัสสินค้า",
+  "admin/editor.product-identifier.type.productReference": "ข้อมูลอ้างอิงผลิตภัณฑ์",
+  "admin/editor.product-identifier.type.productId": "รหัสผลิตภัณฑ์",
+  "admin/editor.product-identifier.type.skuEan": "SKU EAN",
+  "admin/editor.product-identifier.type.skuReferenceId": "รหัสอ้างอิง SKU",
+  "admin/editor.product-identifier.label.title": "ป้ายชื่อ",
+  "admin/editor.product-identifier.label.default": "ค่าเริ่มต้น",
+  "admin/editor.product-identifier.label.custom": "กำหนดเอง",
+  "admin/editor.product-identifier.label.hide": "ซ่อน",
+  "admin/editor.product-identifier.customLabel.title": "ป้ายที่กำหนดเอง"
+}

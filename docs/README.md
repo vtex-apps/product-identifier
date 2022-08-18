@@ -19,7 +19,19 @@ Add the `vtex.product-identifier` app to your theme's dependencies in the `manif
 }
 ```
 
-Now, the `product-identifier` interface is available. Within the admin's CMS, you can configure this component to show other identifiers, such as:
+Add `product-identifier.product` block to your store as a child of `product-summary.shelf`.
+
+```
+"product-identifier.product": {
+  "props": {
+    "label": "default", //'default' | 'custom' | 'hide'
+    "customLabel": "teste", // text if label is custom
+    "idField": "skuReferenceId" //'itemId' | 'productId' | 'productReference' | 'skuEan' | 'skuReferenceId'
+  }
+},
+```
+
+The `product-identifier` interface is available is also available within the admin's CMS where you can configure this component to show other identifiers, such as:
 
 - Product Reference
 - Product ID

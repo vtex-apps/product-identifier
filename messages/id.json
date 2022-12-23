@@ -1,0 +1,19 @@
+{
+  "store/product-identifier.productReference": "Referensi",
+  "store/product-identifier.productId": "ID",
+  "store/product-identifier.skuEan": "EAN",
+  "store/product-identifier.skuReferenceId": "Referensi",
+  "store/product-identifier.itemId": "ID Item",
+  "admin/editor.product-identifier.title": "Pengenal Produk",
+  "admin/editor.product-identifier.type.title": "Bidang Pengenal",
+  "admin/editor.product-identifier.type.itemId": "ID Item",
+  "admin/editor.product-identifier.type.productReference": "Referensi Produk",
+  "admin/editor.product-identifier.type.productId": "ID Produk",
+  "admin/editor.product-identifier.type.skuEan": "EAN SKU",
+  "admin/editor.product-identifier.type.skuReferenceId": "ID Referensi SKU",
+  "admin/editor.product-identifier.label.title": "Label",
+  "admin/editor.product-identifier.label.default": "Default",
+  "admin/editor.product-identifier.label.custom": "Kustom",
+  "admin/editor.product-identifier.label.hide": "Sembunyikan",
+  "admin/editor.product-identifier.customLabel.title": "Label Kustom"
+}

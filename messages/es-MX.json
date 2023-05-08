@@ -1,0 +1,19 @@
+{
+  "store/product-identifier.productReference": "Referencia",
+  "store/product-identifier.productId": "ID",
+  "store/product-identifier.skuEan": "EAN",
+  "store/product-identifier.skuReferenceId": "Referencia",
+  "store/product-identifier.itemId": "ID de ítem",
+  "admin/editor.product-identifier.title": "Identificador del producto",
+  "admin/editor.product-identifier.type.title": "Campo del identificador",
+  "admin/editor.product-identifier.type.itemId": "ID de ítem",
+  "admin/editor.product-identifier.type.productReference": "Referencia del producto",
+  "admin/editor.product-identifier.type.productId": "ID de producto",
+  "admin/editor.product-identifier.type.skuEan": "EAN del SKU",
+  "admin/editor.product-identifier.type.skuReferenceId": "ID de referencia del SKU",
+  "admin/editor.product-identifier.label.title": "Etiqueta",
+  "admin/editor.product-identifier.label.default": "Estándar",
+  "admin/editor.product-identifier.label.custom": "Personalizada",
+  "admin/editor.product-identifier.label.hide": "Ocultar",
+  "admin/editor.product-identifier.customLabel.title": "Etiqueta personalizada"
+}

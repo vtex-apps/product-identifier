@@ -31,7 +31,7 @@ Add `product-identifier.product` block to your store as a child of `product-summ
 },
 ```
 
-The `product-identifier` interface is available is also available within the admin's CMS where you can configure this component to show other identifiers, such as:
+The `product-identifier` interface is also available within the admin's CMS where you can configure this component to show other identifiers, such as:
 
 - Product Reference
 - Product ID

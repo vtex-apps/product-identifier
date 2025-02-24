@@ -31,7 +31,7 @@ The Product Identifier app is responsible for showing a product identifier, such
         },
         ```
 
-The `product-identifier` interface is also available within the admin's CMS where you can configure this component to show other identifiers, such as:
+The `product-identifier` interface can also be configured in the [Site Editor](https://developers.vtex.com/docs/guides/store-framework-working-with-site-editor). You can choose to display the following identifiers:
 
 - Product Reference
 - Product ID
